@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+
+    <!--Page Title-->
+    <title>Station System</title>
+
+    <!--Meta Keywords and Description-->
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+
+    <!--Google Webfonts-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status" class="la-ball-triangle-path">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!--End of Preloader-->
+
+    <!--Start of Border Animation Content Section-->
+    <app-border-animation-section></app-border-animation-section>
+    <!--End of Border Animation Content Section-->
+    <div><app-navigation></app-navigation></div>
+    <div id="wrapper">
+        
+        <!--Start of Navbar-->
+        <div id="header" class="nav-collapse">
+            <div class="row clearfix">
+                <div class="col-1">
+                    
+                    <!--Start of Station Logo Content Section-->
+                    <app-station-logo-section></app-station-logo-section>
+                    <!--End of Station Logo Content Section-->
+
+                    <!--Start of Social Media Content Section-->
+                    <app-social-media-icons></app-social-media-icons>
+                    <!--End of Social Media Content Section-->
+
+                    <!--Start of Navigation Content Section-->
+                    
+                    <!--End of Navigation Content Section-->
+
+                </div>
+            </div>
+        </div>
+        <!--End of Navbar-->
+
+
+        <!--Main Content Area-->
+        <main id="content">
+            
+            <!--Start of Content Section-->
+            <router-outlet></router-outlet>
+            <!--End of Content Section-->
+            
+        </main>
+        <!--End Main Content Area-->
+
+        <!--Footer Content Area-->
+        <app-footer-section></app-footer-section>
+        <!--End Footer Content Area-->
+
+    </div>
+
+
+</body>
+</html>

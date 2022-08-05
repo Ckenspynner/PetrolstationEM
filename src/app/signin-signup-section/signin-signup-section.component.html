@@ -1,0 +1,44 @@
+<div id="login-signup-container">
+    <div id="login-signup-overlay-color"></div>
+    <div id="login-signup-holder">
+
+        <div id="login-signup-container">
+    
+            <img class="wave" src="assets/images/images/unlgock.svg">
+            <div class="container">
+            <div class="img">
+            <img src="assets/images/images/bg_accessaccount.svg">
+            </div>
+                    <div class="login-content">
+                        <form action="index.html">
+                            <img src="assets/images/images/avat.svg">
+                                <h2 class="title">Welcome</h2>
+                                   <div class="input-div one">
+                                      <div class="i">
+                                      <i class="fa fa-user"></i>
+                                      </div>
+                                      <div class="div">
+                                      <input type="text" name="username" [(ngModel)]="UserLogin.username" class="input" placeholder="Username">
+                                      </div>
+                                   </div>
+                                   <div class="input-div pass">
+                                      <div class="i">
+                                       <i class="fa fa-lock"></i>
+                                      </div>
+                                      <div class="div">
+                                       <input type="password" name="password" [(ngModel)]="UserLogin.password" class="input" placeholder="Password">
+                                       </div>
+                                   </div>
+                                  <a href="#">Forgot Password?</a>
+                                 <input type="submit" class="btn" value="Login" (click)="userLogin()">
+                        </form>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+</div>
+<!-- partial -->
+
+</div>
